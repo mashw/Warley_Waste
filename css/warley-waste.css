@@ -449,11 +449,13 @@ body {
       .accordion-wrapper {
         padding: 20px;
         width: 100%;
+        margin-left: 30px;
       }
       .accordion {
         cursor: pointer;
         transition: 0.4s;
         user-select: none;
+        text-align: justify;
       }
         .accordion:before {
           content: "\25BC";
@@ -477,6 +479,7 @@ body {
         overflow: hidden;
         max-height: 0;
         transition: max-height 0.3s ease-out;
+        font-size: 18px;
       }
       
    
@@ -969,4 +972,5 @@ textarea {
         height: 6vh;
         margin-top: -50px;
       }
-    }}
+    }
+  }
