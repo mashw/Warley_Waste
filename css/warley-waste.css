@@ -153,6 +153,7 @@ body {
 }
 
 .services {
+  margin-top: -30px;
   z-index: 10;
   height: auto;
   padding-bottom: 30px;
@@ -168,7 +169,7 @@ body {
 }
 
 .services h2 {
-  margin-top: -20px;
+  margin-top: 10px;
   font-weight: 600;
   letter-spacing: 2px;
 }
