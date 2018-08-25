@@ -136,25 +136,23 @@ body {
 }
 
 .arrow {
-  margin-top: -10px;
   overflow-x: hidden;
   padding: 0;
 }
 
 .arrowBottom {
   z-index: 7;
-  width: 300vw;
   height: 10vh;
   margin-top: -50px;
   background-image: url('../img/arrowBottom.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 0px;
+  border-bottom: 30px solid white;
 }
 
 .services {
-  margin-top: -200px;
+  margin-top: -20px;
   z-index: 10;
   height: auto;
   padding-bottom: 30px;
