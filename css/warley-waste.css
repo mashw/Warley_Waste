@@ -155,7 +155,6 @@ body {
 .services {
   z-index: 10;
   height: auto;
-  margin-top: -10px;
   padding-bottom: 30px;
   background-color: #fff;
   background-repeat: no-repeat;
@@ -169,7 +168,7 @@ body {
 }
 
 .services h2 {
-  margin-top: -30px;
+  margin-top: -20px;
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -181,7 +180,7 @@ body {
 .boxRow {
   width: 90vw;
   position: relative;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .boxLeft {
@@ -222,7 +221,6 @@ body {
 }
 
 .icons {
-  padding-top: 20px;
   max-width: 150px;
   width: 60%;
   user-drag: none;
@@ -239,7 +237,7 @@ body {
 
 .serviceBox h3 {
   letter-spacing: 2px;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 20px;
   user-select: none;
   -moz-user-select: none;
@@ -255,9 +253,7 @@ body {
 }
 
 .serviceBox p {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   text-align: justify;
   font-size: 16px;
 }
@@ -309,7 +305,7 @@ body {
 }
 
 .about1 h2 {
-  padding-top: 70px;
+  padding-top: 40px;
   color: #FFF;
   letter-spacing: 2px;
   padding-bottom: 20px;
@@ -321,7 +317,7 @@ body {
 }
 
 .about1 h3 {
-  padding-top: 60px;
+  padding-top: 20px;
   color: #FFF;
   padding-bottom: 20px;
   user-select: none;
@@ -405,6 +401,7 @@ body {
   display: block;
   clear: both;
   margin-top: 10px;
+  padding-bottom: 40px;
   font-size: 16px;
   text-align: justify;
 }
@@ -416,8 +413,6 @@ body {
   font-size: 16px;
   padding-top: 20px;
   padding-bottom: 70px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
   .questions:after {
     z-index: 100;
@@ -436,8 +431,6 @@ body {
     margin-left: -30px;
   }
   .questions-row {
-    margin-top: 50px;
-    width: 70vw;
   }
       .questions h2 {
         margin-top: 50px;
@@ -447,22 +440,24 @@ body {
         text-align: center;
       }
       .accordion-wrapper {
-        padding: 20px;
-        width: 100%;
-        margin-left: 30px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100vw;
       }
       .accordion {
         cursor: pointer;
         transition: 0.4s;
         user-select: none;
         text-align: justify;
+        margin: auto;
       }
         .accordion:before {
           content: "\25BC";
           color: #FFF;
           font-weight: bold;
           float: left;
-          margin-top: 5px;
+          margin-top: 0px;
           margin-right: 10px;
       }    
         .active:before {
@@ -472,7 +467,7 @@ body {
           transform: scale(1.01);
         }
         .accordion h3 {
-          font-size: 32px;
+          font-size: 20px;
           letter-spacing: 1px;
         }
       .panel {
@@ -480,6 +475,8 @@ body {
         max-height: 0;
         transition: max-height 0.3s ease-out;
         font-size: 18px;
+        text-align: justify;
+        padding-top: 20px;
       }
       
    
@@ -880,11 +877,10 @@ textarea {
       width: 95vw;
     }
     .serviceBox p {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-bottom: 40px;
     }
     .serviceBox ul {
-      padding-bottom: 30px;
+      padding-bottom: 40px;
       text-align: left;
       font-size: 16px;
       margin-left: auto;
@@ -934,8 +930,9 @@ textarea {
         content: url("../img/right-arrow.png");
         pointer-events: none;
         z-index: 10000;
-        left: 85%;
+        left: 80%;
         position: absolute;
+        margin-top: -40px;
       }
       .checkBox {
         width: 90%;
@@ -946,6 +943,18 @@ textarea {
       .foot-row {
         width: 75%;
       }
+      .questions-row {
+        margin-top: 50px;
+      }
+
+      .accordion:before {
+        margin-top: 5px;
+      }
+      .accordion-wrapper {
+      }
+      .accordion h3 {
+        font-size: 32px;
+      }
     }
     @media screen and (min-width: 1200px) {
       .navbar:after {
@@ -955,8 +964,8 @@ textarea {
         width: 75vw;
       }
       .serviceBox p {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
       }
     }
     @media screen and (min-width: 2300px) {
@@ -964,6 +973,10 @@ textarea {
         left: 12%;
         margin-left: -30px;
         border-width: 30px;
+      }
+      .questions-row {
+        margin-top: 50px;
+      }dth: 100%;
       }
     }
     @media screen and (min-height: 1000px) {
