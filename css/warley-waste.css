@@ -490,7 +490,14 @@ body {
         padding-top: 20px;
       }
       
-   
+
+.desktop_map {
+  display: block;
+}     
+
+.mobile_map {
+  display: none;
+}
 
 
 .section-title {
@@ -870,6 +877,14 @@ textarea {
     }
     #map {
       height: 50vw;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .desktop_map {
+      display: none;
+    }
+    .mobile_map {
+      display: block;
     }
   }
   @media screen and (min-width: 520px) {
