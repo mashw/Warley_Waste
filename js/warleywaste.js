@@ -111,21 +111,4 @@ $(document).ready(function() {
     }
   });
   }
-
-  // ===========================================================================
-  // SUBMIT BUTTON VALIDATION
-  // ===========================================================================
-  const validateForm = () => {
-    preventDefault();
-    var checkBox = document.getElementById("confirm").checked;
-    var submitButton = document.getElementById("sub-button");
-    if (checkBox != true) {
-      alert("TICKETYTICK");
-      return false;      
-    }
-    else {
-      return true;
-    }
-  }
-
 });
