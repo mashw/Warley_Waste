@@ -325,14 +325,14 @@
             <h3>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</h3>
             <div class="row">
                 <form action="https://formspree.io/contact@warleywaste.co.uk" enctype="multipart/form-data" method="POST"
-                    class="col-12 col-lg-6 contact-form" id="contact-form" onsubmit="return validateForm()">
+                    class="col-12 col-lg-6 contact-form" id="contact-form" >
                     <h4>Name/Business</h4>
-                    <input type="text" name="name">
+                    <input type="text" required name="name">
                     <h4>Email Address</h4>
-                    <input type="email" name="_replyto">
+                    <input type="email" required name="_replyto">
                     <h4>Message</h4>
                     <textarea name="message"></textarea>
-                    <label id="confirm-label"><input type="checkbox"  id="confirm" /> By checking this box you confirm to Warley Waste using your details for the purpose of correspondence.</label></li>
+                    <label id="confirm-label"><input type="checkbox" required id="confirm" /> By checking this box you confirm to Warley Waste using your details for the purpose of correspondence.</label></li>
                                        
                     <input type="submit" value="Submit" name="submit" id="sub-button">
                     <input type="hidden" name="_next" value="#" />
