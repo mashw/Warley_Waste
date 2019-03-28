@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Warley Waste Confidentials</title>
+    <title>Warley Waste</title>
 
     <!--bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -258,7 +258,7 @@
 
                                 We ensure that any material due to be shredded is transported under our personal supervision and <strong>destroyed in a secure facility the same day.</strong>
                                 <br><br>
-                                We transport confidential material in strong, tear-resistant sacks with security ties.  This ensure the material is contained safely and will remain confidential right through the destruction process.
+                                We transport confidential material in strong, tear-resistant sacks with security ties.  This ensures the material is contained safely and will remain confidential right through the destruction process.
                                 <br><br>
                                 We will personally notify you by email or phone-call when your material is delivered to the facility and you receive a certificate of destruction once destruction is complete and processed.
                                 </p>
@@ -290,7 +290,7 @@
                                 <br><br>
                                 For most companies this is enough time to accumulate enough material ready for destruction avoiding keeping confidential material longer than necessary.
                                 <br><br>
-                                Some comapnies and individuals however don't require so regular a collection, or even a one-off service.  This is no problem and we can arrange this for you.
+                                Some companies and individuals however don't require so regular a collection, or even require a one-off service.  This is no problem and we can arrange this for you.
                                 </p>
                             </div>
                         </div>
@@ -324,15 +324,17 @@
             <h2>Contact Us.</h2>
             <h3>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</h3>
             <div class="row">
-                <form action="https://formspree.io/contact@warleywaste.co.uk" method="POST"
-                    class="col-12 col-lg-6 contact-form">
+                <form action="https://formspree.io/contact@warleywaste.co.uk" enctype="multipart/form-data" method="POST"
+                    class="col-12 col-lg-6 contact-form" id="contact-form" onsubmit="return validateForm()">
                     <h4>Name/Business</h4>
                     <input type="text" name="name">
                     <h4>Email Address</h4>
                     <input type="email" name="_replyto">
                     <h4>Message</h4>
                     <textarea name="message"></textarea>
-                    <input type="submit" value="Submit" name="submit">
+                    <label id="confirm-label"><input type="checkbox"  id="confirm" /> By checking this box you confirm to Warley Waste using your details for the purpose of correspondence.</label></li>
+                                       
+                    <input type="submit" value="Submit" name="submit" id="sub-button">
                     <input type="hidden" name="_next" value="#" />
                 </form>
 
@@ -358,11 +360,11 @@
                             <div class="contact-wrapper">
                                 <h4>Email Us</h4>
                                 <p class="email">contact
-                                    <span style="display: none;"></span>
-                                    .warleywaste@gmail.com</p>
+                                    <span style="display: none">2442</span>
+                                    @warleywaste.com</p>
                             </div>
                         </div>
-                        <div class="col-12 contact-method address-method">
+                        <!--<div class="col-12 contact-method address-method">
                             <i class="fas f>
                 a-envelope-open"></i>
                             <div class="contact-wrapper">
@@ -374,6 +376,7 @@
                                 </p>
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
             </div>
@@ -381,7 +384,11 @@
 
 
         <div class="col-12 foot">
-
+            <div class="row">
+                <div class="col-12">
+                    Copyright 2019
+                </div>
+            </div>
         </div>
 
 
